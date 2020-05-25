@@ -63,8 +63,8 @@ namespace Meadow.Foundation.Sensors.Rotary
         /// <param name="aPhasePin"></param>
         /// <param name="bPhasePin"></param>
         public RotaryEncoder(IIODevice device, IPin aPhasePin, IPin bPhasePin) :
-            this(device.CreateDigitalInputPort(aPhasePin, InterruptMode.EdgeBoth, ResistorMode.PullUp, 10, 50), //Signifcantly reduced debounce as this was causing reading issues if RotaryEncoder was turned quickly.
-                 device.CreateDigitalInputPort(bPhasePin, InterruptMode.EdgeBoth, ResistorMode.PullUp, 10, 50))
+            this(device.CreateDigitalInputPort(aPhasePin, InterruptMode.EdgeBoth, ResistorMode.PullUp, 0, 10),
+                 device.CreateDigitalInputPort(bPhasePin, InterruptMode.EdgeBoth, ResistorMode.PullUp, 0, 10))
         { }
 
         /// <summary>
