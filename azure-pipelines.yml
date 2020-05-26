@@ -22,8 +22,8 @@ stages:
     - job: Build_Solution
       steps:
         - task: NuGetToolInstaller@1
-          inputs:
-            versionSpec: 5.5.1
+        #  inputs:
+        #    versionSpec: 5.5.1
         # if develop branch, add a nuget source for the internal feed
         # - task: NuGetCommand@2
         #   displayName: Use_Beta_Nugets
