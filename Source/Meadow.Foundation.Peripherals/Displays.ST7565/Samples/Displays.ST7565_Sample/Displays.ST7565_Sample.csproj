@@ -5,6 +5,6 @@
     <AssemblyName>App</AssemblyName>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\Meadow.Foundation.Peripherals\Displays.ST7565\Driver\Displays.ST7565\Displays.ST7565.csproj" />
+    <PackageReference Include="Meadow.Foundation.Displays.St7565" Version="0.*" />
   </ItemGroup>
 </Project>

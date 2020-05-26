@@ -5,6 +5,6 @@
     <AssemblyName>App</AssemblyName>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\Meadow.Foundation.Peripherals\Sensors.Atmospheric.Sht31D\Driver\Sensors.Atmospheric.SHT31D\Sensors.Atmospheric.SHT31D.csproj" />
+    <PackageReference Include="Meadow.Foundation.Sensors.Atmospheric.Sht31D" Version="0.*" />
   </ItemGroup>
 </Project>

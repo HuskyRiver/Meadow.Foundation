@@ -17,6 +17,6 @@
     <EmbeddedResource Include="meadow.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Driver\Displays.TftSpi\Displays.TftSpi.csproj" />
+    <PackageReference Include="Meadow.Foundation.Displays.TftSpi" Version="0.*" />
   </ItemGroup>
 </Project>

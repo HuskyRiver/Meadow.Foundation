@@ -28,7 +28,9 @@ do
         if [ -z ${packageIds["$filename"]} ]; then
             echo "cannot find package for $filename in $file"
         else
-            sed -i "s|<ProjectReference.*\\$filename.*|<PackageReference Include=\"${packageIds["$filename"]}\" Version=\"${packageVersions["$filename"]}\" />|" $file
+            #sed -i "s|<ProjectReference.*\\$filename.*|<PackageReference Include=\"${packageIds["$filename"]}\" Version=\"${packageVersions["$filename"]}\" />|" $file
+            # use a floating version instead
+            sed -i "s|<ProjectReference.*\\$filename.*|<PackageReference Include=\"${packageIds["$filename"]}\" Version=\"0.*\" />|" $file
         fi
     done
 done

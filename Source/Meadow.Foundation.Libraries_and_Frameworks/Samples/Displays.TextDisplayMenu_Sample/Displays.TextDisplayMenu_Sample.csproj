@@ -5,12 +5,12 @@
     <AssemblyName>App</AssemblyName>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Meadow.Foundation.Core\Meadow.Foundation.Core.csproj" />
-    <ProjectReference Include="..\..\..\Meadow.Foundation.Peripherals\Displays.Ssd1306\Driver\Displays.Ssd1306\Displays.Ssd1306.csproj" />
+    <PackageReference Include="Meadow.Foundation" Version="0.*" />
+    <PackageReference Include="Meadow.Foundation.Displays.Ssd1306" Version="0.*" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Displays.TextDisplayMenu\Displays.TextDisplayMenu.csproj" />
-    <ProjectReference Include="..\..\Displays.GraphicsLibrary\Displays.GraphicsLibrary.csproj" />
+    <PackageReference Include="Meadow.Foundation.Displays.TextDisplayMenu" Version="0.*" />
+    <PackageReference Include="Meadow.Foundation.Displays.GraphicsLibrary" Version="0.*" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="menu.json" />
