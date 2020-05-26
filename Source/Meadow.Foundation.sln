@@ -662,6 +662,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FeatherWings.OLED128x32Wing
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sensors.HallEffect_Sample", "Meadow.Foundation.Core.Samples\Sensors.HallEffect_Sample\Sensors.HallEffect_Sample.csproj", "{F4FD40F9-B7F2-4A89-8647-7D3CDDF95289}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Displays.TftSpi.Ili9341_Jpg_Sample", "Meadow.Foundation.Peripherals\Displays.TftSpi\Samples\Displays.TftSpi.Ili9341_Jpg_Sample\Displays.TftSpi.Ili9341_Jpg_Sample.csproj", "{8EB5B38B-FA13-409A-9FD3-AAC776842B86}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1417,6 +1419,12 @@ Global
 		{F4FD40F9-B7F2-4A89-8647-7D3CDDF95289}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4FD40F9-B7F2-4A89-8647-7D3CDDF95289}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F4FD40F9-B7F2-4A89-8647-7D3CDDF95289}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{8EB5B38B-FA13-409A-9FD3-AAC776842B86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EB5B38B-FA13-409A-9FD3-AAC776842B86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EB5B38B-FA13-409A-9FD3-AAC776842B86}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8EB5B38B-FA13-409A-9FD3-AAC776842B86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EB5B38B-FA13-409A-9FD3-AAC776842B86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EB5B38B-FA13-409A-9FD3-AAC776842B86}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1745,6 +1753,7 @@ Global
 		{800E8B51-6E13-4C45-B96B-077428AB0D04} = {3626B3BB-CC77-4A2F-90A8-5C23A3F304A7}
 		{521D5D37-D316-44A7-81C0-E0F4C20D1977} = {800E8B51-6E13-4C45-B96B-077428AB0D04}
 		{F4FD40F9-B7F2-4A89-8647-7D3CDDF95289} = {7EBB4434-F29C-4316-BEDC-F28F07CE4AC8}
+		{8EB5B38B-FA13-409A-9FD3-AAC776842B86} = {8FB70D12-1111-480B-B64C-B8EB65977F58}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AF7CA16F-8C38-4546-87A2-5DAAF58A1520}

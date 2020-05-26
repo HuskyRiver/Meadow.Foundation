@@ -6,7 +6,5 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Meadow.Foundation.Sensors.Motion.Adxl335" Version="0.*" />
-      <ReferenceSourceTarget>ProjectReference</ReferenceSourceTarget>
-    </ProjectReference>
   </ItemGroup>
 </Project>
