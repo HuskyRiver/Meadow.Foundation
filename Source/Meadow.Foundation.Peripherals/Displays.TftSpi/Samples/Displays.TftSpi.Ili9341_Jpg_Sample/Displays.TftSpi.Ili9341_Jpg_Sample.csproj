@@ -10,11 +10,13 @@
     <None Remove="meadow.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\Meadow.Foundation.Peripherals\Displays.TftSpi\Driver\Displays.TFTSPI\Displays.TftSpi.csproj" />
     <PackageReference Include="SimpleJpegDecoder" Version="0.1.1" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="meadow-logo.jpg" />
     <EmbeddedResource Include="meadow.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Driver\Displays.TftSpi\Displays.TftSpi.csproj" />
   </ItemGroup>
 </Project>
