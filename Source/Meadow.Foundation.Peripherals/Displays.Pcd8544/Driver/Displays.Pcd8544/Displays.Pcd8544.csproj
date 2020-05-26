@@ -15,6 +15,5 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Meadow.Foundation.Displays.GraphicsLibrary" Version="0.*" />
-    <PackageReference Include="Meadow.Foundation" Version="0.*" />
   </ItemGroup>
 </Project>
